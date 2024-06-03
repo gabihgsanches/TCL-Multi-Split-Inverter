@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'TCLSans-Unity-Bold';
+  src: url("../font/gotham-medium/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: 'TCLSans-Unity-Book';
+  src: url("../font/gotham-medium/Gotham-Book-Regular.otf");
+}
+
+.gst-wrapper {
+  font-family: 'TCLSans-Unity-Book', sans-serif;
+  font-size: 0.94rem;
+}
+
+.gst-wrapper h1 {
+  font-family: 'TCLSans-Unity-Bold', sans-serif;
+  font-size: 1.7rem;
+}
+
+.gst-wrapper p {
+  line-height: 1.5rem;
+}
+
+.gst-wrapper .disclaimer {
+  font-size: 14px;
+  -webkit-filter: opacity(0.7);
+  filter: opacity(0.7);
+  padding-bottom: 1rem;
+}
+
+.gst-wrapper img {
+  width: 100%;
+}
+
+.gst-wrapper img.img {
+  padding-top: 1rem;
+}
+
+.gst-wrapper header.c725 .mobile {
+  display: block;
+}
+
+.gst-wrapper header.c725 .regular {
+  display: none;
+}
+
+.gst-wrapper img.logo {
+  max-width: 8rem;
+  padding-bottom: 1rem;
+}
+
+.gst-wrapper .features section.row{
+  padding: 1rem;
+}
+
+.gst-wrapper .app {
+  padding-bottom: 3rem;
+}
+
+.gst-wrapper .app:last-child {
+  padding-bottom: 0;
+}
+
+.gst-wrapper .apps {
+  background-color: #F8F9FB; 
+  padding: 3rem;
+}
+
+@media (min-width: 992px) {
+  .gst-wrapper header.c725 .mobile {
+    display: none;
+  }
+  .gst-wrapper header.c725 .regular {
+    display: block;
+  }
+  .gst-wrapper .features section.row{ 
+    padding: 0 1rem;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .padding-conexao{
+    padding-left: 6rem;
+  }
+  .padding-operacao{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .padding-garantia{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .padding-conexao{
+    padding-left: 7rem;
+  }
+  .padding-operacao{
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+  }
+  .padding-garantia{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .padding-conexao{
+    padding-left: 9rem;
+  }
+  .padding-operacao{
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .padding-garantia{
+    padding-left: 17rem;
+    padding-right: 17rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .gst-wrapper h1 {
+    font-size: calc(0.8rem + 1vw);
+  }
+  .gst-wrapper {
+    font-size: 0.7rem;
+  }
+  .gst-wrapper .features {
+    padding-top: 1rem;
+  }
+  .gst-wrapper small {
+    font-size: 0.575rem;
+  }
+  .gst-wrapper img.logo {
+    max-width: 4.4rem;
+    padding-bottom: 0.7rem;
+  }
+  .gst-wrapper p {
+    line-height: 1.2rem;
+  }
+
+  .gst-wrapper .disclaimer {
+    font-size: 80%;
+    -webkit-filter: opacity(0.7);
+    filter: opacity(0.7);
+    padding-bottom: 1rem;
+  }
+}
